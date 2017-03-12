@@ -63,7 +63,6 @@ function logger(x) {
   console.log(x);
 }
 
-
 //******************************************
 // 5. Create a function 'looper(arr)' that loops over an array
 // The function takes an array as argument
@@ -76,7 +75,6 @@ var arr = [24,43,44,42]
 for (let i = 0; i < arr.length; i += 1) { 
   console.log(arr[i]);
 }
-
 
 //******************************************
 // 6. Create a callback function that prints
@@ -95,8 +93,6 @@ var libraryFunction = function(callback) {
 
 libraryFunction(callback)
 
-
-
 //******************************************
 // 7. Write a function 'upper(str)' that takes an input
 // argument, checks that it is a string,
@@ -111,7 +107,6 @@ function upper(str) {
 }
 
 console.log(upper('hey')) //should output 'HEY'
-
 
 //******************************************
 // 8. Complete the function with a switch-case statement
@@ -139,8 +134,6 @@ console.log(compare(3)) //should output 'too big'
 console.log(compare(2)) //should output 'just right'
 console.log(compare(1)) //should output 'too small'
 console.log(compare(42)) //should output 'invalid output'
-
-
 
 // -------------------- Advanced --------------------
 
